@@ -35,11 +35,11 @@ To identify similar nucleotide sequences and study sequence conservation.
 
 * All top hits showed **100% sequence identity**, indicating an exact match with the queried insulin CDS.
 
-* The very low E-value (**4e-171**) indicates that the similarity is statistically significant and unlikely to occur by chance.
+* The very low E-value (**4e-171**) indicates that the similarity is significant and not likely to occur by chance.
 
-* The insulin gene is highly conserved due to its essential role in glucose regulation and metabolism.
+* The insulin gene is highly conserved because to its essential role in glucose regulation and metabolism.
 
-* BLAST analysis helps identify sequence similarity, homologous sequences, and provides insights into gene function and evolutionary relationships.
+* BLAST analysis helps us identify sequence similarity, homologous sequences, and provides insights into gene function and evolutionary relationships.
 
 ---
 
@@ -55,8 +55,8 @@ To identify similar nucleotide sequences and study sequence conservation.
 ## LEARNING OUTCOME
 
 * Learned how to perform nucleotide sequence similarity searches.
-* Understood BLASTN workflow.
-* Learned interpretation of:
+* Understood what is the BLASTN workflow.
+* Learned the interpretation of:
 
   * Sequence identity
   * E-value
