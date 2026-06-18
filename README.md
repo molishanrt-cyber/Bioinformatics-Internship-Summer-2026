@@ -1,53 +1,64 @@
-# Day 1:Bioinformatics Internship: BLAST Analysis — Human Insulin Gene
+# Day 1 — BLAST Analysis: Human Insulin Gene 🧬
 
-## Sequence Analyzed
+## SEQUENCE ANALYZED
 
-**Gene:** Human Insulin (INS) gene  
-**Sequence Type:** Coding Sequence (CDS)  
-**Reference Transcript:** NM_000207.3  
-**CDS Coordinates:** 60–392  
-**CDS Length:** 333 bp  
+**Gene:** Human Insulin (INS) gene
+**Sequence Type:** Coding Sequence (CDS)
+**Reference Transcript:** NM_000207.3
+**CDS Coordinates:** 60–392
+**CDS Length:** 333 bp
 
+---
 
+## BLAST PROGRAM AND DATABASE USED
 
-## BLAST Analysis
+**Program:** BLASTN (Nucleotide BLAST)
 
-### Tool Used
-**BLAST Program:** BLASTN (Nucleotide BLAST)
+**Database:** NCBI nr/nt (Non-redundant nucleotide database)
 
-### Database
-**NCBI nr/nt (Non-redundant nucleotide database)**
+**Purpose of BLAST:**
+To identify similar nucleotide sequences and study sequence conservation.
 
-### Objective
+---
 
-The purpose of this analysis was to identify sequences similar to the human insulin CDS and understand sequence conservation using nucleotide sequence comparison.
+## SUMMARY OF TOP 3 BLAST HITS
 
+| Rank | Sequence Hit                              | Identity | E-value |
+| ---- | ----------------------------------------- | -------- | ------- |
+| 1    | Homo sapiens insulin transcript variant 3 | 100%     | 4e-171  |
+| 2    | Homo sapiens insulin transcript variant 4 | 100%     | 4e-171  |
+| 3    | Homo sapiens insulin transcript variant 1 | 100%     | 4e-171  |
 
+---
 
-## BLAST Results
+## KEY BIOLOGICAL TAKEAWAYS
 
-| Rank |             Sequence Hit                  | Identity |E-value |
-| 1    | Homo sapiens insulin transcript variant 3 | 100%     | 4e-171 |
-| 2    | Homo sapiens insulin transcript variant 4 | 100%     | 4e-171 |
-| 3    | Homo sapiens insulin transcript variant 1 | 100%     | 4e-171 |
+* All top hits showed **100% sequence identity**, indicating an exact match with the queried insulin CDS.
 
+* The very low E-value (**4e-171**) indicates that the similarity is statistically significant and unlikely to occur by chance.
 
+* The insulin gene is highly conserved due to its essential role in glucose regulation and metabolism.
 
-## Biological Interpretation
+* BLAST analysis helps identify sequence similarity, homologous sequences, and provides insights into gene function and evolutionary relationships.
 
-- All top BLAST hits showed **100% sequence identity**, indicating that the query sequence exactly matched known insulin transcript sequences.
+---
 
-- The extremely low E-value (**4e-171**) indicates that the similarity is statistically significant and unlikely to occur by chance.
+## TOOLS USED
 
-- The high conservation of the insulin gene reflects its important biological role in glucose regulation and metabolism.
+* NCBI BLAST
+* NCBI Nucleotide Database
+* FASTA sequence format
+* Sequence similarity analysis
 
-- BLAST analysis helps identify homologous sequences, compare genes across databases, and understand evolutionary relationships.
+---
 
+## LEARNING OUTCOME
 
+* Learned how to perform nucleotide sequence similarity searches.
+* Understood BLASTN workflow.
+* Learned interpretation of:
 
-## Skills Learned
-
-- Using NCBI BLAST for sequence similarity searches
-- Selecting appropriate BLAST programs
-- Understanding E-value, identity percentage, and sequence coverage
-- Interpreting biological meaning from BLAST results
+  * Sequence identity
+  * E-value
+  * BLAST hits
+  * Sequence conservation
