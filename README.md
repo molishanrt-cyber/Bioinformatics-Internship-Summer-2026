@@ -37,7 +37,7 @@ To identify similar nucleotide sequences and study sequence conservation.
 
 * The very low E-value (**4e-171**) indicates that the similarity is significant and not likely to occur by chance.
 
-* The insulin gene is highly conserved because to its essential role in glucose regulation and metabolism.
+* The insulin gene is highly conserved because of its essential role in glucose regulation and metabolism.
 
 * BLAST analysis helps us identify sequence similarity, homologous sequences, and provides insights into gene function and evolutionary relationships.
 
